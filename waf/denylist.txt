@@ -8,12 +8,22 @@
 /.*etc.*
 .*http[s]?://.*
 .*%3C%73%63%72%69%70%74%3E.*
+.*--.*
 .*\b(select|union|drop|insert|delete|update)\b.*
 .*file://.*
 .*\.\./.*
 .*;.*\b(exec|system|passthru|shell_exec|popen|proc_open)\b.*
 .*\|\|.*
-.*ls.*
-.*wget.*
-.*bash.*
-.*sh.*
+.*<!DOCTYPE.*>
+.*<iframe.*>.*
+.*eval\(.*\).*
+.*\$\{.*\}.*
+.*on[a-zA-Z]*=.*\(.*\).*
+.*' or 1=1.*
+.*'\)\s*;.*--.*
+.*union.*select.*
+.*load_file\(.*\).*
+.*into\s+outfile.*
+.*benchmark\(.*\).*
+.*sleep\([0-9].*\).*
+.*http-equiv=.*refresh.*
